@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Programming", "CSharp-Programming\CSharp-Programming.csproj", "{C59EC898-0B25-48FD-BF13-120F35310549}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{53819CA3-FC4B-4B4C-A87A-D2D833DE7A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00._Programming", "00._Programming\00._Programming.csproj", "{229C0782-E74C-42DA-B773-12338B082105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{C59EC898-0B25-48FD-BF13-120F35310549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59EC898-0B25-48FD-BF13-120F35310549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59EC898-0B25-48FD-BF13-120F35310549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229C0782-E74C-42DA-B773-12338B082105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229C0782-E74C-42DA-B773-12338B082105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229C0782-E74C-42DA-B773-12338B082105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229C0782-E74C-42DA-B773-12338B082105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C59EC898-0B25-48FD-BF13-120F35310549} = {53819CA3-FC4B-4B4C-A87A-D2D833DE7A42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AF2413D-744A-4B06-A86D-49A24001C1B6}
